@@ -1,0 +1,9 @@
+{
+  "name": "express-logger",
+  "version": "1.0.0",
+  "description": "module logger for express",
+  "main": "index.js",
+  "repository": "https://github.com/firmanJS/express-logger.git",
+  "author": "firmanjs",
+  "license": "MIT"
+}
