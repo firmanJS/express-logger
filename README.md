@@ -8,7 +8,9 @@ Module logger untuk kebutuhan team backend logique
 ## Instalasi
 
 ```sh
-$ npm install express-logger
+$ npm install express-logger-logique
+or
+$ yarn add express-logger-logique
 ```
 ### Cara Penggunaan
 ```js
