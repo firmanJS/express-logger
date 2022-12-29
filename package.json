@@ -1,5 +1,5 @@
 {
-  "name": "express-logger",
+  "name": "express-logger-logique",
   "version": "1.0.0",
   "description": "module logger for express",
   "main": "index.js",
