@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "https://github.com/firmanJS/express-logger.git",
   "author": "firmanjs",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firmanJS/express-logger/issues"
+  },
+  "homepage": "https://github.com/firmanJS/express-logger#readme",
+  "keywords": [
+    "nodejs",
+    "logger",
+    "middleware"
+  ]
 }
