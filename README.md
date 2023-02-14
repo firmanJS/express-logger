@@ -16,7 +16,7 @@ $ yarn add express-logger-logique
 ```js
 const { captureLog } = require('express-logger-logique')
 
-captureLog({ type: 'transactions', 'transaction.log'}).write('this message')
+captureLog({ type: 'transactions', file_name: 'transaction.log'}).write('this message')
 ```
 #### Author: [Firman]
 
