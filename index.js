@@ -5,7 +5,7 @@ const generateFolderLogs = (dynamicFolder, path) => {
   const year = today.getFullYear()
   const month = today.getMonth() + 1
   const date = today.getDate()
-  const folderPath = `./${dynamicFolder}/${path}/${year}/${month}/${date}/`
+  const folderPath = `${dynamicFolder}/${path}/${year}/${month}/${date}`
   try {
     if (!fs.existsSync(folderPath)) {
       fs.mkdirSync(folderPath, { recursive: true, mode: 0o755 })
@@ -24,7 +24,7 @@ const generateFolderLogs = (dynamicFolder, path) => {
 exports.captureLog = (options) => {
   try {
     const { folderPath } = generateFolderLogs('logs', options?.type)
-    const finalPath = `${__dirname}/${folderPath}/${options?.file_name}`
+    const finalPath = `${folderPath}/${options?.file_name}`
     return fs.createWriteStream(finalPath, {
       flags: 'a',
       mode: 0o755
