@@ -1,6 +1,6 @@
 {
   "name": "express-logger-logique",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "module logger for express",
   "main": "index.js",
   "repository": "https://github.com/firmanJS/express-logger.git",

@@ -21,10 +21,10 @@ const generateFolderLogs = (dynamicFolder, path) => {
   }
 }
 
-exports.captureLog = (options, directory = __dirname) => {
+exports.captureLog = (options) => {
   try {
     const { folderPath } = generateFolderLogs('logs', options?.type)
-    const finalPath = `${directory}/${folderPath}/${options?.file_name}`
+    const finalPath = `${folderPath}/${options?.file_name}`
     return fs.createWriteStream(finalPath, {
       flags: 'a',
       mode: 0o755
